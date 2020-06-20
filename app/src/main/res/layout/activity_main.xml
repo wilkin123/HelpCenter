@@ -4,6 +4,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/button3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#2D3142"
@@ -52,19 +53,6 @@
             android:layout_height="1dp"
             android:background="#1663FD" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="65dp"
-            android:background="#00FFFFFF"
-            android:backgroundTint="@android:color/transparent"
-            android:strokeColor="#FB02F8"
-            android:text="Map"
-            android:textColor="#304FFE"
-            android:textSize="18sp"
-            tools:layout_editor_absoluteX="156dp"
-            tools:layout_editor_absoluteY="371dp" />
-
         <View
             android:id="@+id/divider3"
             android:layout_width="match_parent"
@@ -72,7 +60,7 @@
             android:background="#3162F3" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/button1"
             android:layout_width="match_parent"
             android:layout_height="65dp"
             android:background="#00FFFFFF"
@@ -110,7 +98,7 @@
             android:layout_width="match_parent"
             android:layout_height="65dp"
             android:background="#00FFFFFF"
-            android:text="Environment"
+            android:text="Homelessness"
             android:textColor="#73A871"
             android:textSize="18sp"
             tools:layout_editor_absoluteX="156dp"
