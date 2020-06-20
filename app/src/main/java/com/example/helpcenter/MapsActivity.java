@@ -14,13 +14,19 @@ package com.example.helpcenter;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
-    private static final LatLng Klein = new LatLng(40.821640, -73.945170);
-
     private static final LatLng Key = new LatLng(40.821640, -73.945170);
 
-    private static final LatLng Super = new LatLng(40.823879, -73.944382);
+    private static final LatLng Super = new LatLng(40.822710, -73.942730);
 
-    private static final LatLng Pioneer = new LatLng(40.822790, -73.935540);
+    private static final LatLng Pioneer = new LatLng(40.8231237, -73.9375922);
+
+    private static final LatLng FineFare = new LatLng(40.821250,-73.938740);
+
+    private  static final LatLng Key2 = new LatLng(40.819920, -73.943420);
+
+    private static final LatLng FineFare2 = new LatLng(40.813100,-73.939200);
+
+
 
 
 
@@ -59,24 +65,32 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     private void addMarkers() {
-        mMap.addMarker(new MarkerOptions()
-                .position(Klein)
-                .title("Klein"));
-
+     
         mMap.addMarker(new MarkerOptions()
                 .position(Key)
-                .title("KeyFoods")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+                .title("Key Food Supermarket")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
 
         mMap.addMarker(new MarkerOptions()
                 .position(Super)
                 .title("Super FoodTown")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
-
         mMap.addMarker(new MarkerOptions()
                 .position(Pioneer)
-                .title("Pioneer")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
+                .title("Pioneer Market")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+        mMap.addMarker(new MarkerOptions()
+                .position(FineFare)
+                .title("FineFare Supermarket")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+        mMap.addMarker(new MarkerOptions()
+                .position(Key2)
+                .title("Key Food Supermarket")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+        mMap.addMarker(new MarkerOptions()
+                .position(FineFare2)
+                .title("FineFare Supermarket")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
     }
 
 
