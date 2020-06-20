@@ -17,7 +17,8 @@
         android:gravity="center"
         android:text="Help Center"
         android:textColor="#5771DA"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        app:fontFamily="@font/russo_one" />
 
 
     <View

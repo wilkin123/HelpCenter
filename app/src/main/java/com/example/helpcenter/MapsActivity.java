@@ -65,7 +65,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     private void addMarkers() {
-     
+
         mMap.addMarker(new MarkerOptions()
                 .position(Key)
                 .title("Key Food Supermarket")
