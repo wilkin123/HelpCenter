@@ -1,15 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat
-    xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#2D3142"
+    android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="65dp"
-        android:layout_height="73dp"
-        android:text="Button to map"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="371dp" />
-</androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Help Center"
+        android:textColor="#5771DA"
+        android:textSize="36sp" />
+
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3162F3" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginTop="6dp"
+        app:srcCompat="@drawable/newyork" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="355dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Our app is intended to help keep NYC streets clean. We provide recycling locations that are closest to you. Help keep the streets clean."
+        android:textColor="#C6C9CC" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1663FD" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="#00FFFFFF"
+            android:backgroundTint="@android:color/transparent"
+            android:strokeWidth="6dp"
+            android:strokeColor="#FB02F8"
+            android:text="Map"
+            android:textColor="#304FFE"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="371dp" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#3162F3" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="#00FFFFFF"
+            android:text="Littering"
+            android:textColor="#8B5BC1"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="371dp" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#3162F3" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="#00FFFFFF"
+            android:text="COVID - 19"
+            android:textColor="#FB2B2B"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="371dp" />
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#3162F3" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="#00FFFFFF"
+            android:text="Environment"
+            android:textColor="#73A871"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="371dp" />
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#3162F3" />
+
+    </LinearLayout>
+
+</LinearLayout>
