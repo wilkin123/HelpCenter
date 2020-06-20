@@ -58,7 +58,6 @@
             android:layout_height="65dp"
             android:background="#00FFFFFF"
             android:backgroundTint="@android:color/transparent"
-            android:strokeWidth="6dp"
             android:strokeColor="#FB02F8"
             android:text="Map"
             android:textColor="#304FFE"
