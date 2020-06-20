@@ -1,8 +1,10 @@
 package com.example.helpcenter;
 
+        import androidx.appcompat.app.AppCompatActivity;
         import androidx.fragment.app.FragmentActivity;
 
         import android.os.Bundle;
+        import android.widget.Toast;
 
         import com.google.android.gms.maps.CameraUpdateFactory;
         import com.google.android.gms.maps.GoogleMap;
@@ -10,6 +12,7 @@ package com.example.helpcenter;
         import com.google.android.gms.maps.SupportMapFragment;
         import com.google.android.gms.maps.model.BitmapDescriptorFactory;
         import com.google.android.gms.maps.model.LatLng;
+        import com.google.android.gms.maps.model.Marker;
         import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
@@ -26,9 +29,27 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private static final LatLng FineFare2 = new LatLng(40.813100,-73.939200);
 
+    private static final LatLng Church = new LatLng(40.81594335, -73.9417977922599);
 
+    private static final LatLng Hosp = new LatLng(40.81470595,-73.939280346021);
 
+    private static final LatLng Ryan = new LatLng(40.8119441111111,-73.9499976666667);
 
+    private static final LatLng Church2 = new LatLng(40.82661715	,-73.9384599511008);
+
+    private  static final LatLng Phys = new LatLng(40.8094195, -73.9488561);
+
+    private static final LatLng CityMD = new LatLng(40.8268934,-73.9497877);
+
+    private static final LatLng CityMD2 = new LatLng(40.8156548,-73.9582503);
+
+    private static final LatLng CityMD3 = new LatLng(40.817955,	-73.9603735);
+
+    private static final LatLng family = new LatLng(40.8018113,-73.9437044);
+
+    private static final LatLng mother = new LatLng(40.81594335,-73.9417977922599);
+
+    private static final LatLng boriken = new LatLng(40.8024	,-73.9367685);
 
     private GoogleMap mMap;
 
@@ -70,7 +91,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .position(Key)
                 .title("Key Food Supermarket")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
-
         mMap.addMarker(new MarkerOptions()
                 .position(Super)
                 .title("Super FoodTown")
@@ -91,7 +111,53 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .position(FineFare2)
                 .title("FineFare Supermarket")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+        mMap.addMarker(new MarkerOptions()
+                .position(Church)
+                .title("Mother African Methodist Episcopal Zion Church")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions()
+                .position(Hosp)
+                .title("NYC Health")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions()
+                .position(Ryan)
+                .title("Ryan Health")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions()
+                .position(Church2)
+                .title("St Matthews Baptist Church")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions()
+                .position(Phys)
+                .title("AdvantageCare Physicians")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions()
+                .position(CityMD)
+                .title("CityMD Urgent Care")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions()
+                .position(CityMD2)
+                .title("CityMD Urgent Care")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions()
+                .position(CityMD3)
+                .title("CityMD Urgent Care")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions()
+                .position(family)
+                .title("Family Health Center")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions()
+                .position(mother)
+                .title("Mother AME Zion Church")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions()
+                .position(boriken)
+                .title("Boriken Neighborhood Health Center")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+
     }
 
-
     }
+
+    
