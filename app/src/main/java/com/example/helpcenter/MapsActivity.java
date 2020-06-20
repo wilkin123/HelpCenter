@@ -8,10 +8,21 @@ package com.example.helpcenter;
         import com.google.android.gms.maps.GoogleMap;
         import com.google.android.gms.maps.OnMapReadyCallback;
         import com.google.android.gms.maps.SupportMapFragment;
+        import com.google.android.gms.maps.model.BitmapDescriptorFactory;
         import com.google.android.gms.maps.model.LatLng;
         import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
+
+    private static final LatLng Klein = new LatLng(40.821640, -73.945170);
+
+    private static final LatLng Key = new LatLng(40.821640, -73.945170);
+
+    private static final LatLng Super = new LatLng(40.823879, -73.944382);
+
+    private static final LatLng Pioneer = new LatLng(40.822790, -73.935540);
+
+
 
     private GoogleMap mMap;
 
@@ -38,10 +49,35 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+        addMarkers();
+
 
         // Add a marker in Sydney and move the camera
         LatLng currentLocation = new LatLng(40.821640, -73.945170);
         mMap.addMarker(new MarkerOptions().position(currentLocation).title("Klein"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(currentLocation));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentLocation, 12f));
     }
-}
+
+    private void addMarkers() {
+        mMap.addMarker(new MarkerOptions()
+                .position(Klein)
+                .title("Klein"));
+
+        mMap.addMarker(new MarkerOptions()
+                .position(Key)
+                .title("KeyFoods")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+
+        mMap.addMarker(new MarkerOptions()
+                .position(Super)
+                .title("Super FoodTown")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+
+        mMap.addMarker(new MarkerOptions()
+                .position(Pioneer)
+                .title("Pioneer")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
+    }
+
+
+    }
