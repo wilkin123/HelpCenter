@@ -65,7 +65,7 @@
             android:layout_height="65dp"
             android:background="#00FFFFFF"
             android:text="Littering"
-            android:textColor="#8B5BC1"
+            android:textColor="#FFC107"
             android:textSize="18sp"
             tools:layout_editor_absoluteX="156dp"
             tools:layout_editor_absoluteY="371dp" />
@@ -82,7 +82,7 @@
             android:layout_height="65dp"
             android:background="#00FFFFFF"
             android:text="COVID - 19"
-            android:textColor="#FB2B2B"
+            android:textColor="#FF3B4B"
             android:textSize="18sp"
             tools:layout_editor_absoluteX="156dp"
             tools:layout_editor_absoluteY="371dp" />
@@ -99,7 +99,7 @@
             android:layout_height="65dp"
             android:background="#00FFFFFF"
             android:text="Homelessness"
-            android:textColor="#73A871"
+            android:textColor="#009688"
             android:textSize="18sp"
             tools:layout_editor_absoluteX="156dp"
             tools:layout_editor_absoluteY="371dp" />
