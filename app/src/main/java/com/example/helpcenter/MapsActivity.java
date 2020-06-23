@@ -51,6 +51,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private static final LatLng boriken = new LatLng(40.8024	,-73.9367685);
 
+    private static final LatLng UnitarianChurch = new LatLng(40.775450, -73.958360);
+
+    private static final LatLng CommunityKitchen = new LatLng(40.803950, -73.954990);
+
+    private static final LatLng XavierMission = new LatLng(40.737810, -73.995510);
+
+    private static final LatLng SaintLuke = new LatLng(40.75986705, -73.98869052);
+
+    private static final LatLng CommonPantry= new LatLng(40.79575935, -73.94923617);
+
     private GoogleMap mMap;
 
     @Override
@@ -155,6 +165,26 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .position(boriken)
                 .title("Boriken Neighborhood Health Center")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions()
+                .position(UnitarianChurch)
+                .title("Unitatian Church")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+        mMap.addMarker(new MarkerOptions()
+                .position(CommunityKitchen)
+                .title("Food Bank For New York City - Community Kitchen & Food Pantry")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+        mMap.addMarker(new MarkerOptions()
+                .position(XavierMission)
+                .title("Xavier Mission")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+        mMap.addMarker(new MarkerOptions()
+                .position(SaintLuke)
+                .title("St Luke's Lutheran Church")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+        mMap.addMarker(new MarkerOptions()
+                .position(CommonPantry)
+                .title("New York Common Pantry")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
 
     }
 
