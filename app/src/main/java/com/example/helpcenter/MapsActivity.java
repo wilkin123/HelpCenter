@@ -99,82 +99,82 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .position(Key)
                 .title("Key Food Supermarket")
                 .snippet("Grocery Store, Reverse Vending Machine")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
         mMap.addMarker(new MarkerOptions()
                 .position(Super)
                 .title("Super FoodTown")
                 .snippet("Grocery Store, Reverse Vending Machine")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
         mMap.addMarker(new MarkerOptions()
                 .position(Pioneer)
                 .title("Pioneer Market")
                 .snippet("Grocery Store, Reverse Vending Machine")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
         mMap.addMarker(new MarkerOptions()
                 .position(FineFare)
                 .title("FineFare Supermarket")
                 .snippet("Grocery Store, Reverse Vending Machine")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
         mMap.addMarker(new MarkerOptions()
                 .position(Key2)
                 .title("Key Food Supermarket")
                 .snippet("Grocery Store, Reverse Vending Machine")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
         mMap.addMarker(new MarkerOptions()
                 .position(FineFare2)
                 .title("FineFare Supermarket")
                 .snippet("Grocery Store, Reverse Vending Machine")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
         mMap.addMarker(new MarkerOptions()
                 .position(Church)
                 .title("Mother AME Zion Church")
                 .snippet("Episcopal Church, COVID-19 Testing Center")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
         mMap.addMarker(new MarkerOptions()
                 .position(Hosp)
                 .title("NYC Health")
                 .snippet("Hospital, COVID-19 Testing Center")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
         mMap.addMarker(new MarkerOptions()
                 .position(Ryan)
                 .title("Ryan Health")
                 .snippet("Health Clinic, COVID-19 Testing Center")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
         mMap.addMarker(new MarkerOptions()
                 .position(Church2)
                 .title("St Matthews Baptist Church")
                 .snippet("Baptist Church, COVID-19 Testing Center")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
         mMap.addMarker(new MarkerOptions()
                 .position(Phys)
                 .title("AdvantageCare Physicians")
                 .snippet("Internist, COVID-19 Testing Center")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
         mMap.addMarker(new MarkerOptions()
                 .position(CityMD)
                 .title("CityMD Urgent Care")
                 .snippet("Urgent Care, COVID-19 Testing Center")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
         mMap.addMarker(new MarkerOptions()
                 .position(CityMD2)
                 .title("CityMD Urgent Care")
                 .snippet("Urgent Care, COVID-19 Testing Center")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
         mMap.addMarker(new MarkerOptions()
                 .position(CityMD3)
                 .title("CityMD Urgent Care")
                 .snippet("Urgent Care, COVID-19 Testing Center")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
         mMap.addMarker(new MarkerOptions()
                 .position(family)
                 .title("Family Health Center")
                 .snippet("Health Clinic, COVID-19 Testing Center")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
         mMap.addMarker(new MarkerOptions()
                 .position(boriken)
                 .title("Boriken Neighborhood Health Center")
                 .snippet("Health Clinic, COVID-19 Testing Center")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
         mMap.addMarker(new MarkerOptions()
                 .position(UnitarianChurch)
                 .title("Unitatian Church")
@@ -200,8 +200,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .title("New York Common Pantry")
                 .snippet("Food Pantry")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
-
-
     }
 
     }
