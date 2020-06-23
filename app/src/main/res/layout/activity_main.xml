@@ -13,11 +13,11 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100sp"
         android:gravity="center"
         android:text="Help Center"
         android:textColor="#5771DA"
-        android:textSize="36sp"
+        android:textSize="45sp"
         app:fontFamily="@font/russo_one" />
 
 
@@ -37,11 +37,12 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="355dp"
-        android:layout_height="54dp"
+        android:layout_height="200dp"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="Our app is intended to help keep NYC streets clean. We provide recycling locations that are closest to you. Help keep the streets clean."
-        android:textColor="#C6C9CC" />
+        android:text="Our app has 3 clear functions. To inform  and redirect users about and to COVID-19 testing centers, inform users of the locations of reverse vending machines to promote  recycling, and to give users ways to aid the homeless."
+        android:textColor="#C6C9CC"
+        android:textSize="20sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -60,33 +61,11 @@
             android:layout_height="1dp"
             android:background="#3162F3" />
 
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="match_parent"
-            android:layout_height="65dp"
-            android:background="#00FFFFFF"
-            android:text="Littering"
-            android:textColor="#FFC107"
-            android:textSize="18sp"
-            tools:layout_editor_absoluteX="156dp"
-            tools:layout_editor_absoluteY="371dp" />
-
         <View
             android:id="@+id/divider4"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="#3162F3" />
-
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="match_parent"
-            android:layout_height="65dp"
-            android:background="#00FFFFFF"
-            android:text="COVID - 19"
-            android:textColor="#FF3B4B"
-            android:textSize="18sp"
-            tools:layout_editor_absoluteX="156dp"
-            tools:layout_editor_absoluteY="371dp" />
 
         <View
             android:id="@+id/divider5"
@@ -94,22 +73,22 @@
             android:layout_height="1dp"
             android:background="#3162F3" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="65dp"
-            android:background="#00FFFFFF"
-            android:text="Homelessness"
-            android:textColor="#009688"
-            android:textSize="18sp"
-            tools:layout_editor_absoluteX="156dp"
-            tools:layout_editor_absoluteY="371dp" />
-
         <View
             android:id="@+id/divider6"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="#3162F3" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="#00FFFFFF"
+            android:text="EXPLORE OUR  Map"
+            android:textColor="#FFC107"
+            android:textSize="40sp"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="371dp" />
 
     </LinearLayout>
 
