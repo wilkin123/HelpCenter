@@ -46,9 +46,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private static final LatLng CityMD3 = new LatLng(40.817955,	-73.9603735);
 
     private static final LatLng family = new LatLng(40.8018113,-73.9437044);
-
-    private static final LatLng mother = new LatLng(40.81594335,-73.9417977922599);
-
+    
     private static final LatLng boriken = new LatLng(40.8024	,-73.9367685);
 
     private GoogleMap mMap;
