@@ -178,27 +178,27 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions()
                 .position(UnitarianChurch)
                 .title("Unitatian Church")
-                .snippet("Soup Kitchens, Donation Center")
+                .snippet("Soup Kitchen, Donation Center")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
         mMap.addMarker(new MarkerOptions()
                 .position(CommunityKitchen)
-                .title("Food Bank For New York City - Community Kitchen & Food Pantry")
-                .snippet("")
+                .title("Food Bank For New York City")
+                .snippet("Food Pantry")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
         mMap.addMarker(new MarkerOptions()
                 .position(XavierMission)
                 .title("Xavier Mission")
-                .snippet("")
+                .snippet("Church, Soup Kitchen, Clothing Bank")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
         mMap.addMarker(new MarkerOptions()
                 .position(SaintLuke)
                 .title("St Luke's Lutheran Church")
-                .snippet("")
+                .snippet("Lutheran Church, Soup Kitchen, Clothing Bank, Food Pantry")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
         mMap.addMarker(new MarkerOptions()
                 .position(CommonPantry)
                 .title("New York Common Pantry")
-                .snippet("")
+                .snippet("Food Pantry")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
 
 
