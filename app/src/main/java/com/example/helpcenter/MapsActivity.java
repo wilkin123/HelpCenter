@@ -14,8 +14,18 @@ package com.example.helpcenter;
         import com.google.android.gms.maps.model.LatLng;
         import com.google.android.gms.maps.model.Marker;
         import com.google.android.gms.maps.model.MarkerOptions;
+        import com.google.android.gms.maps.GoogleMap.OnMyLocationButtonClickListener;
+        import com.google.android.gms.maps.GoogleMap.OnMyLocationClickListener;
+        import android.Manifest;
+        import android.content.pm.PackageManager;
+        import android.location.Location;
+        import android.os.Bundle;
+        import androidx.annotation.NonNull;
+        import androidx.core.app.ActivityCompat;
+        import androidx.core.content.ContextCompat;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
+
 
     private static final LatLng Key = new LatLng(40.821640, -73.945170);
 
